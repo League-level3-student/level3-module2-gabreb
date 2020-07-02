@@ -33,7 +33,7 @@ class _00_SortedArrayCheckerTest {
 		assertTrue(_00_SortedArrayChecker.charArraySorted(sorted));
 	}
 	
-	@Test
+
 	void stringDoubleArray() {
 		String[] unsorted = {"carrot", "pineapple", "mango", "pear"};
 		String[] sorted = {"apple", "banana", "carrot", "grape"};

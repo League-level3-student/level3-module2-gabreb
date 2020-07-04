@@ -8,12 +8,17 @@ public class Factorial {
 	  e.g. 
 	  5! = 5*4*3*2*1 = 120
 	 */
+	
 	public static int factorial(int n) {
 		//1. If n is zero
+		if (n == 0) {
+			return 1;
+		}
+			return (factorial(n));
+			
 			//2. return 1
 		
-			//3. else return n * factorial(n-1)
-		return 0;
+			//3. else return n * factorial(n-1
 	}
 	
 	public static void main(String[] args) {

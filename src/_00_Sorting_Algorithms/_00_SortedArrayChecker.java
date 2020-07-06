@@ -1,5 +1,8 @@
 package _00_Sorting_Algorithms;
 
+import java.lang.reflect.Array;
+import java.util.List;
+
 public class _00_SortedArrayChecker {
 	//1. Write a static method called intArraySorted. 
 	//   This method takes in an array of integers
@@ -10,6 +13,30 @@ public class _00_SortedArrayChecker {
 	static boolean intArraySorted (int[]array) {
 		for (int i = 0; i < array.length-1; i++) {
 			if (array[i]>array[i+1]) {
+				return false;
+			}
+		}
+		return true;
+	}
+	public static boolean intListSorted (List<Double> results) {
+		for (int i = 0; i < results.size()-1; i++) {
+			if (results.get(i)>results.get(i+1)) {
+				return false;
+			}
+		}
+		return true;
+	}
+	public static boolean StringSorted (List<String> s) {
+		for (int i = 0; i < s.size()-1; i++) {
+			if (s.get(i).length() > s.get(i+1).length()) {
+				return false;
+			}
+		}
+		return true;
+	}
+	public static boolean Stringy (List<String> words) {
+		for (int i = 0; i < words.size()-1; i++) {
+			if (words.get(i).compareTo(words.get(i+1)) == 1) {
 				return false;
 			}
 		}

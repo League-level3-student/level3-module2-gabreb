@@ -12,7 +12,7 @@ public class _01_SearchingAndSortingAlgorithms {
 	 * Create the methods in the Algorithm class so that it will make the following tests pass. When you get a green bar, uncomment the next test until you have
 	 * solved them all. Expand your vocabulary while you're at it.
 	 **/
-
+	
 	/* 1. Create a method that will find and return the first index of a broken egg */
 	@Test
 	public void testSearch() {
